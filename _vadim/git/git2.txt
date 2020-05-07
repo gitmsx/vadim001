@@ -1,0 +1,28 @@
+git init
+git config --global User.name 
+git config --global user.name "John Doe"
+git config --global user.email luckmidi@yandex.ru	
+git config --global core.editor emacs
+
+git status untracked files
+git status untracked files
+
+
+
+git config --global core.editor \ "'C:/Program Files/Notepad++/notepad++.exe'"
+
+git config --global core.editor \ "C:\Program Files\Notepad++\notepad++.exe"
+git config --global core.editor \ 'C:/Program\ Files\ \(x86\)/Notepad++/notepad++.exe'
+git config --global core.editor \ "'C:\UTILS\NPP\nPP.exe'" 
+git config --global core.editor "atom -w"
+git config --global core.editor "atom -w"
+git config --global core.editor "notepad"
+git config --global --unset-all core.editor
+git config --global core.editor "notepad"
+git config --global core.editor "'C:\UTILS\NPP\nPP.exe' -multiInst -notabbar -nosession -noPlugin"
+
+
+
+
+git log
+git log
