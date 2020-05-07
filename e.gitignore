@@ -1,0 +1,5 @@
+# Prerequisites
+*.d
+
+# Executables
+*.exe          
