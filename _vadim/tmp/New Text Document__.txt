@@ -1,0 +1,247 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace DynamicControl001
+{
+    public partial class Form1 : Form
+    {
+        //int StartPosition = 10;
+        //int EndPosition = 10; 
+        //  bool[] mas_bool = new bool[100];
+        int[] mas_int = new int[35];
+        int[] mas_order = new int[35];
+        //   string[] mas_str2 = new string[35];
+        string[] mas_result = new string[35];
+
+        int count_input_word = 0;
+        public Form1()
+        {
+            InitializeComponent();
+         
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+          
+
+
+            
+
+            for (int i1 = 0; i1 < mas_int.Length; i1++)
+                
+            {
+                mas_int[i1] = 0;
+               // mas_str2[i1] = "";
+
+            }
+
+
+
+
+            for (int i = 1; i <= 15; i++)
+            {             
+                Label ls = addlebel(i );
+                flowLayoutPanel1.Controls.Add(ls);
+                // ls.DoubleClick += new EventHandler(this.labelDoubleClick);
+                ls.Click += new EventHandler(this.labelDoubleClick);
+            }
+
+
+        }
+
+
+
+        void labelDoubleClick(object sender, EventArgs ev1)
+        {
+            int NumInArr;
+            Label cucerrentLabel1 = (Label)sender;
+          //  MessageBox.Show(cucerrentLabel1.Text);
+
+            NumInArr = int.Parse(cucerrentLabel1.Name);
+            if (mas_int[NumInArr] == 0)
+            {
+
+                mas_int[NumInArr] = 1;
+              //  mas_str2[NumInArr] = "";
+                mas_result[count_input_word] = cucerrentLabel1.Text;
+                count_input_word++;
+                
+
+                cucerrentLabel1.ForeColor = Color.Yellow;
+                cucerrentLabel1.BackColor = Color.Red;
+            }
+            else
+            {
+                mas_int[NumInArr] = 0;
+             //   mas_str2[NumInArr] = "";
+                count_input_word--;
+                mas_result[count_input_word] = "";
+                cucerrentLabel1.ForeColor = Color.DarkBlue;
+                cucerrentLabel1.BackColor = Color.Aqua;
+
+            }
+
+
+
+        }
+
+        //Label addlebel(int i, int start, int end)
+        Label addlebel(int i)
+        {
+            Label l = new Label();
+            l.Name = "" + i.ToString();
+            l.Text = "Label" + i.ToString();
+            l.ForeColor = Color.DarkBlue;
+            l.BackColor = Color.Aqua;
+            l.Font = new Font("Serif", 24, FontStyle.Bold);
+            l.Width = 180;
+            l.Height = 50;
+           
+         //   l.Location = new Point(start, end);
+            l.TextAlign = ContentAlignment.MiddleCenter;
+            l.Margin = new Padding(5);
+
+
+            return l;
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace DynamicControl001
+{
+    public partial class Form1 : Form
+    {
+        //int StartPosition = 10;
+        //int EndPosition = 10; 
+        //  bool[] mas_bool = new bool[100];
+        int[] mas_int = new int[35];
+        int[] mas_order = new int[35];
+        //   string[] mas_str2 = new string[35];
+        string[] mas_result = new string[35];
+
+        int count_input_word = 0;
+        public Form1()
+        {
+            InitializeComponent();
+         
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+          
+
+
+            
+
+            for (int i1 = 0; i1 < mas_int.Length; i1++)
+                
+            {
+                mas_int[i1] = 0;
+               // mas_str2[i1] = "";
+
+            }
+
+
+
+
+            for (int i = 1; i <= 15; i++)
+            {             
+                Label ls = addlebel(i );
+                flowLayoutPanel1.Controls.Add(ls);
+                // ls.DoubleClick += new EventHandler(this.labelDoubleClick);
+                ls.Click += new EventHandler(this.labelDoubleClick);
+            }
+
+
+        }
+
+
+
+        void labelDoubleClick(object sender, EventArgs ev1)
+        {
+            int NumInArr;
+            Label cucerrentLabel1 = (Label)sender;
+          //  MessageBox.Show(cucerrentLabel1.Text);
+
+            NumInArr = int.Parse(cucerrentLabel1.Name);
+            if (mas_int[NumInArr] == 0)
+            {
+
+                mas_int[NumInArr] = 1;
+              //  mas_str2[NumInArr] = "";
+                mas_result[count_input_word] = cucerrentLabel1.Text;
+                count_input_word++;
+                
+
+                cucerrentLabel1.ForeColor = Color.Yellow;
+                cucerrentLabel1.BackColor = Color.Red;
+            }
+            else
+            {
+                mas_int[NumInArr] = 0;
+             //   mas_str2[NumInArr] = "";
+                count_input_word--;
+                mas_result[count_input_word] = "";
+                cucerrentLabel1.ForeColor = Color.DarkBlue;
+                cucerrentLabel1.BackColor = Color.Aqua;
+
+            }
+
+
+
+        }
+
+        //Label addlebel(int i, int start, int end)
+        Label addlebel(int i)
+        {
+            Label l = new Label();
+            l.Name = "" + i.ToString();
+            l.Text = "Label" + i.ToString();
+            l.ForeColor = Color.DarkBlue;
+            l.BackColor = Color.Aqua;
+            l.Font = new Font("Serif", 24, FontStyle.Bold);
+            l.Width = 180;
+            l.Height = 50;
+           
+         //   l.Location = new Point(start, end);
+            l.TextAlign = ContentAlignment.MiddleCenter;
+            l.Margin = new Padding(5);
+
+
+            return l;
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

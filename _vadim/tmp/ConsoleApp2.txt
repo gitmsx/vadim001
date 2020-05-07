@@ -1,0 +1,48 @@
+using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double inp001;
+            double inp002;
+            double inp003, val2;
+            string inpstr1, inpstr2, inpstr3;
+
+
+            Console.WriteLine("1 ");
+            Console.WriteLine("22 ");
+            Console.WriteLine("22 ");
+            Console.WriteLine("2 ");
+
+            Console.WriteLine("3 ");
+            Console.WriteLine("Enter data1 ");
+            inpstr1 = Console.ReadLine();
+            Console.WriteLine("Enter data2 ");
+            inpstr2 = Console.ReadLine();
+            Console.WriteLine("Enter data3 ");
+            inpstr3 = Console.ReadLine();
+
+
+            try
+            {
+                inp001 = double.Parse(inpstr1);
+                inp002 = double.Parse(inpstr3);
+                inp003 = double.Parse(inpstr3);
+
+                val2 = (inp001 + inp002) / inp003;
+
+                Console.WriteLine("result = ");
+                Console.WriteLine(val2);
+            }
+            catch
+            {
+                Console.WriteLine("critical error");
+            }
+
+
+        }
+    }
+}

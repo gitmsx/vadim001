@@ -1,0 +1,59 @@
+
+
+
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            float myNum = 12456468655.75F;
+            short myNum2 = 1245;
+            Int16 myNum3 = 12445;
+            System.Int64 myNum4 = 12441244124412445;
+            Int64 myNum5 = 8442441244124412445;
+            Boolean danet1 = false;
+            bool danet2 = true;
+            string str_ing1 = "It is true";
+            
+            
+            string str_ing2 = "Вадим It is true22222";
+
+
+            Console.WriteLine(str_ing2);
+            Console.WriteLine("введите имя ");
+            str_ing2 = Console.ReadLine();
+            Console.WriteLine("Привет  " + str_ing2+ " ты кто");
+
+            Console.WriteLine(danet1);
+            Console.WriteLine(myNum);
+            Console.WriteLine(danet2);
+            Console.WriteLine(str_ing1);
+
+
+
+            Console.WriteLine(myNum2);
+            Console.WriteLine(myNum3);
+            Console.WriteLine(myNum4);
+            Console.WriteLine(myNum5);
+
+
+            // Console.WriteLine(sizeof(myNum));
+
+
+
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Dctv ghbdtn  Dvctv ghbdtn Всем привет!");
+            
+
+            string str1 = "7";
+            string str2 = "55";
+
+            Int32 conv1;
+            Int32 conv2;
+
+            Console.WriteLine("Это " + str1 + str2);
+            conv1 = Convert.ToInt32(str1);
+            conv2 = Convert.ToInt32(str2);
+
+
+
+            Console.WriteLine("Это " + Convert.ToString( conv1 + conv2));
+
+
+            // Console.ReadKey();
