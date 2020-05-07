@@ -1,0 +1,3 @@
+git add * 
+git commit -m "3first commit" 
+git push -u origin master
