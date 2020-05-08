@@ -8,3 +8,13 @@ C:\Users\vaduser\source\repos\Windows_pol\Windows_pol\obj\Debug\Windows_pol.cspr
 C:\Users\vaduser\source\repos\Windows_pol\Windows_pol\obj\Debug\Windows_pol.exe
 C:\Users\vaduser\source\repos\Windows_pol\Windows_pol\obj\Debug\Windows_pol.pdb
 C:\Users\vaduser\source\repos\Windows_pol\Windows_pol\obj\Debug\Windows_pol.Form1.resources
+D:\_00002\vadim001\Windows_pol\bin\Debug\Windows_pol.exe.config
+D:\_00002\vadim001\Windows_pol\bin\Debug\Windows_pol.exe
+D:\_00002\vadim001\Windows_pol\bin\Debug\Windows_pol.pdb
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.csprojAssemblyReference.cache
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.Labls.resources
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.Properties.Resources.resources
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.csproj.GenerateResource.cache
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.csproj.CoreCompileInputs.cache
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.exe
+D:\_00002\vadim001\Windows_pol\obj\Debug\Windows_pol.pdb
